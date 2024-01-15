@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: content-box;
 }
+body{
+  background-color: black;
+  color: white;
+}
 
 .nav-ul{
-  border: 0.3vi solid rgb(125, 39, 218);
+  border: 0.3vi solid rgb(138, 140, 237);
   height: 2vi;
-  background-color: rgb(125, 39, 218);
+  background-color: rgb(138, 140, 237);
   width: 100vw;
   height: 7vh;
   display: flex;
@@ -18,7 +22,7 @@
 .nav-ul li{
   list-style:none;
   font-size: x-large;
-  font-weight: bolder;
+
 }
 .nav-ul li:hover{
   transform: scale(1.1); 
@@ -30,12 +34,12 @@
 .Footer{
   position: absolute;
   bottom: 0;
-  background-color:rgb(125, 39, 218);
+  background-color:rgb(138, 140, 237);
   height: 7vh;
   text-align: center;
   width: 100vw;
   color: white;
-  font-weight: bold;
+  
   font-size: 1.7vi;
 }
 .sign-up{
@@ -49,34 +53,35 @@
   position:absolute;
   align-items: center;
   border: 1px solid black;
-  box-shadow: 2px 2px 2px 5px rgb(125, 39, 218);
+  box-shadow: 2px 2px 2px 5px rgb(138, 140, 237);
   background-color: rgb(239, 236, 236);
   
 }
 .sign-up h1{
   font-size: 4vi;
+  color: black;
 }
 .sign-up input{
   height: 3vi;
   width: 22vi;
   border-radius: 0.2vi;
   margin: 0.5vi;
-  font-weight: 600;
-  border: 1px solid rgb(125, 39, 218);
+ 
+  border: 1px solid rgb(138, 140, 237);
   padding-left: 0.5vi;
   
 }
 .sign-up input:hover{
   transform:scale(1.09);
-  border: 2px solid rgb(125, 39, 218);
+  border: 2px solid rgb(138, 140, 237);
 }
 .sign-up button{
   height: 3vi;
   width: 6vi;
   border-radius: 0.8vi;
-  background-color: rgb(125, 39, 218);
+  background-color: rgb(138, 140, 237);
   color: white;
-  font-weight: bolder;
+  
   margin-top: 2vi;
 }
 .sign-up button:hover{
