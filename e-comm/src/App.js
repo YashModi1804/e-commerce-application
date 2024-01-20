@@ -5,6 +5,7 @@ import Footer from "./Components/Footer"
 import SignUp from './Components/signup';
 import PrivateComponent from './Components/private';
 import Login from './Components/login'
+import AddProduct from './Components/product';
 export default function App(){
   return(   
 
@@ -15,7 +16,7 @@ export default function App(){
       <Routes>
         <Route element={<PrivateComponent/>}>
         <Route path='/' element={<h1>hello</h1>}></Route>
-        <Route path='/add' element={}></Route>
+        <Route path='/add-product' element={<AddProduct/>}></Route>
         <Route path='/update' element={<h1>Update Product</h1>}></Route>
         <Route path='/logout' element={<h1>Log Out </h1>}></Route>
         <Route path='/profile' element={<h1>Profile Area</h1>}></Route>

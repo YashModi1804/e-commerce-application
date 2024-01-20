@@ -88,3 +88,50 @@ body{
   transform: scale(1.1);
   cursor: pointer;
 }
+.product{
+  position: absolute;
+  margin-top: 2vi;
+  display: flex;
+  margin-left: 15vi;
+  flex-direction: row;
+  gap: 2vi;
+  padding: 2vi;
+  width: 70vw;
+  height: 30vh;
+  position:absolute;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 5px rgb(138, 140, 237);
+  background-color: rgb(239, 236, 236);
+  
+}
+.product-heading{
+  margin-left:45vi;
+}
+.product input{
+  height: 3vi;
+  width: 22vi;
+  border-radius: 0.2vi;
+  margin: 0.5vi;
+ 
+  border: 1px solid rgb(138, 140, 237);
+  padding-left: 0.5vi;
+}
+.product input:hover{
+  transform:scale(1.09);
+  border: 2px solid rgb(138, 140, 237);
+}
+.product button{
+  height: 2.5vi;
+  width: 6vi;
+  border-radius: 0.2vi;
+  margin-bottom: 2.2vi;
+  background-color: rgb(138, 140, 237);
+  color: white;
+  
+  margin-top: 2vi;
+}
+.product button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}

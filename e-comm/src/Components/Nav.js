@@ -14,7 +14,7 @@ export default function Nav() {
         <div>
             { auth? <ul className='nav-ul'>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/add'>Add Product</Link></li>
+                <li><Link to='/add-product'>Add Product</Link></li>
                 <li><Link to='/update'>Update Product</Link></li>
                 <li><Link to='/profile'>Profile</Link></li>
                 {/* <li>{auth ? <Link onClick={logout} to='/signup'>Log Out</Link> : <Link to='/signup'>SignUp</Link>}</li> */}
